@@ -1,4 +1,4 @@
-### Sicredi-Digital-QA-api-master
+## Sicredi-Digital-QA-api-master
 
 Desafio de automação da API utilizando RestAssured.
 
