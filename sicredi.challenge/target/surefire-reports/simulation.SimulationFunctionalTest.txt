@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: simulation.SimulationFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 2.618 s <<< FAILURE! - in simulation.SimulationFunctionalTest
+simulation.SimulationFunctionalTest.validateCreateSimulationWithCPFMalformed  Time elapsed: 0.085 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <201>
+	at simulation.SimulationFunctionalTest.validateCreateSimulationWithCPFMalformed(SimulationFunctionalTest.java:44)
+
+simulation.SimulationFunctionalTest.validateCreateSimulationWithPortionBiggerThanAllowed  Time elapsed: 0.05 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <201>
+	at simulation.SimulationFunctionalTest.validateCreateSimulationWithPortionBiggerThanAllowed(SimulationFunctionalTest.java:124)
+
+simulation.SimulationFunctionalTest.validateDeleteSimulationWithSucefully  Time elapsed: 0.045 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <204> but was: <200>
+	at simulation.SimulationFunctionalTest.validateDeleteSimulationWithSucefully(SimulationFunctionalTest.java:178)
+
+simulation.SimulationFunctionalTest.validateCreateExistentSimulation  Time elapsed: 0.064 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <409> but was: <400>
+	at simulation.SimulationFunctionalTest.validateCreateExistentSimulation(SimulationFunctionalTest.java:34)
+
+simulation.SimulationFunctionalTest.validateDeleteSimulationWithIDNotFound  Time elapsed: 0.018 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <404> but was: <200>
+	at simulation.SimulationFunctionalTest.validateDeleteSimulationWithIDNotFound(SimulationFunctionalTest.java:185)
+
+simulation.SimulationFunctionalTest.validateCreateSimulationWithAmountSmallerThanAllowed  Time elapsed: 0.066 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400> but was: <201>
+	at simulation.SimulationFunctionalTest.validateCreateSimulationWithAmountSmallerThanAllowed(SimulationFunctionalTest.java:94)
+
