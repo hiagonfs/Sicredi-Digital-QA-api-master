@@ -35,3 +35,5 @@ Para excluir um grupo específico de conjunto de testes, utilize o comando:
 Para excluir um pacote específico contendo um conjunto de testes, utilize o comando: 
 
 `$ mvn test -Dtest="test.java.com.service.map.**"`
+
+##### End
