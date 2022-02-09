@@ -4,7 +4,7 @@ Desafio de automação da API utilizando RestAssured.
 
 #### Documentação e regras da API
 
-As regras da API juntamente com sua implementação e instruções de execução encontram-se [aqui](https://github.com/rh-southsystem/Sicredi-Digital-QA). 
+As regras da API juntamente com sua implementação e instruções de execução encontram-se [aqui](https://reqres.in/). 
 
 #### Requisitos
 
